@@ -16,10 +16,6 @@
     <servlet-name>logging</servlet-name>
     <servlet-class>ua.lviv.lgs.magazineShop.ui.LoginServlet</servlet-class>
   </servlet>
-  <servlet>
-    <servlet-name>magazine</servlet-name>
-    <servlet-class>ua.lviv.lgs.magazineShop.ui.MagazineServlet</servlet-class>
-  </servlet>
   <servlet-mapping>
     <servlet-name>registering</servlet-name>
     <url-pattern>/registering</url-pattern>
@@ -27,9 +23,5 @@
   <servlet-mapping>
     <servlet-name>logging</servlet-name>
     <url-pattern>/logging</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>magazine</servlet-name>
-    <url-pattern>/magazine</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping>  
 </web-app>

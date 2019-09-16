@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebFilter;
 
 import ua.lviv.lgs.magazineShop.domain.AccessLevel;
 
-@WebFilter("/magazine")
+@WebFilter("/magazineCard.jsp")
 public class MagazineFilter implements Filter {
 	private FilterService filterService = FilterService.getFilterService();
 	
